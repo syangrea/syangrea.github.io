@@ -2010,6 +2010,22 @@ input, select, textarea {
 		}
 
 /* Icon */
+	
+	.skill-icon {
+		height: 120px;
+		width: 120px;
+	}
+
+	.skill-icon img{
+		height: 120px;
+		width: 120px;
+		object-fit: contain;
+		
+		
+	}
+	.skill-icon.javascript-icon img{
+		object-fit: cover;
+	}
 
 	.icon {
 		text-decoration: none;
@@ -2190,12 +2206,14 @@ input, select, textarea {
 		.image.avatar {
 			border-radius: 100%;
 			overflow: hidden;
+			
 		}
 
 			.image.avatar img {
 				border-radius: 100%;
 				display: block;
 				width: 100%;
+				object-fit: cover;
 			}
 
 		.image.main {
@@ -2376,16 +2394,18 @@ input, select, textarea {
 	ul.feature-icons {
 		list-style: none;
 		padding-left: 0;
+		display: flex;
+		flex-wrap: wrap;
 	}
 
 		ul.feature-icons li {
 			text-decoration: none;
 			display: inline-block;
-			margin: 0 0 1.6875em 0;
-			padding: 0.35em 0 0 3.5em;
+			margin: 0 25px 100px 0;
+			padding: 0;
 			position: relative;
 			vertical-align: top;
-			width: 48%;
+			
 		}
 
 			ul.feature-icons li:before {

@@ -2012,13 +2012,13 @@ input, select, textarea {
 /* Icon */
 	
 	.skill-icon {
-		height: 120px;
-		width: 120px;
+		height: 100px;
+		width: 100px;
 	}
 
 	.skill-icon img{
-		height: 120px;
-		width: 120px;
+		height: 100px;
+		width: 100px;
 		object-fit: contain;
 		
 		
@@ -2401,7 +2401,7 @@ input, select, textarea {
 		ul.feature-icons li {
 			text-decoration: none;
 			display: inline-block;
-			margin: 0 25px 100px 0;
+			margin: 0 25px 50px 0;
 			padding: 0;
 			position: relative;
 			vertical-align: top;
@@ -2701,6 +2701,13 @@ input, select, textarea {
 			width: 50%;
 		}
 
+			.features article .inner p{
+				margin-bottom: 1em;
+			}
+			.features article .inner span{
+				margin-bottom: 1.25em;
+			}
+
 			.features article .inner > :last-child {
 				margin-bottom: 0;
 			}
@@ -2849,7 +2856,7 @@ input, select, textarea {
 	}
 
 		#main > section > .container {
-			padding: 6em 0 4em 0;
+			padding: 5em 0 3em 0;
 		}
 
 		#main > section:first-child {
